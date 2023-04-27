@@ -43,7 +43,7 @@ pretty.install()
 CON=sol() 
 console = Console()
 wa = Console()
-sys.stdout.write('\x1b]2; META MBF | Demias Syihab META MULTI BRUTEFORCE FACEBOOK\x07')
+sys.stdout.write('\x1b]2; XMBF | XYZONXD MULTI BRUTE FORCE\x07')
 ###----------[ USER AGENT ]---------- ###
 ua_default = 'Mozilla/5.0 (Linux; Android 3.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.66 Mobile Safari/537.36'
 ua_samsung = 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/35.0.0.48.273;]'
@@ -271,7 +271,7 @@ def banner():
               ██╔██╗   ╚██╔╝   ███╔╝  ██║   ██║██║╚██╗██║ ██╔██╗ ██║  ██ ║
              ██╔╝ ██╗   ██║   ███████╗╚██████╔╝██║ ╚████║██╔╝ ██╗██████╔╝
              ╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚═════╝
-			        {m}▪︎{k}▪︎{h}▪︎{sir} XYZON MULTI BRUTE FORCE {x}{m}▪︎{k}▪︎{h}▪︎{x}''')
+			     {m}▪︎{k}▪︎{h}▪︎{sir} XYZON MULTI BRUTE FORCE {x}{m}▪︎{k}▪︎{h}▪︎{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login123():
 	os.system('clear')
@@ -398,30 +398,27 @@ def menu(name,id):
 	jam = strftime('%H:%M:%S')
 	ip = requests.get("https://api.ipify.org").text
 	print('\x1b[1;92m<-------------------------------------------------------------------------------------->')
-	print('\t     \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;92mSELAMAT DATANG DI LAYANAN KAMI BOSSKU\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
+	print('\t     \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;96mSELAMAT DATANG DI LAYANAN KAMI BOSSKU\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
 	print('')
-	print('\x1b[1;93m[\x1b[1;92m▪︎\x1b[1;93m] \x1b[1;92mAuthor      : \x1b[1;93mXyzonXD \33[m(\x1b[1;92mBintangTzy\33[m)')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>{h}Informasi Negara Kamu        : {k}{negara}')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mNama Akun Facebook \x1b[1;92mKamu      : \x1b[1;93m{name}')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>{h}Internet Protocol Kamu       : {k}{ip}')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mIdentitas Diri \33[m(\x1b[1;93mID\33[m) \x1b[1;92mKamu     : \x1b[1;93m{id}')
+	print('[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Author      : \x1b[1;93mXyzonXD \33[m(\x1b[1;92mBintangTzy\33[m)')
+	print(f'[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Informasi Negara Kamu        : {k}{negara}')
+	print(f'[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Nama Akun Facebook \x1b[1;92mKamu      : \x1b[1;93m{name}')
+	print(f'[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Internet Protocol Kamu       : {k}{ip}')
+	print(f'[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Identitas Diri \33[m(\x1b[1;93mID\33[m) \x1b[1;92mKamu     : \x1b[1;93m{id}')
 	print('\x1b[1;92m<-------------------------------------------------------------------------------------->')
-	print('\t        \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;92mINFORMASI MENU\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
+	print('\t        \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;96mINFORMASI MENU\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
 	print('')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m01. Crack Publik \33[m[\x1b[1;92mON\33[m]')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m02. Crack Masal \33[m[\x1b[1;92mON\33[m]')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m03. Crack Username')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m04. Crack File')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m05. User-Agent Random')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m06. Cek Opsi \33[m[\x1b[1;92mON\33[m]')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m07. Hasil Crack \33[m[\x1b[1;92mON\33[m]')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m08. Doa Sebelum Carck \33[m[\x1b[1;92mRecomended\33[m]')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m09. Lapor Bug \33[m[\x1b[1;92mON\33[m]')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m10. Lacak IP')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m11. Bot Komen Facebook')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m12. Bot Share Facebook')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m00. Keluar \33[m( \x1b[1;92mHapus Cookie \33[m) ')
-	xyzonxd = input('\n\x1b[1;93m[\x1b[1;92m?\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mPilih > \x1b[1;93m')
+	print('[bold white][[bold green]01[/][bold white]][/] [bold cyan]Crack Publik \33[m[\x1b[1;92mON\33[m]')
+	print('[bold white][[bold green]02[/][bold white]][/] [bold cyan]Crack Masal \33[m[\x1b[1;92mON\33[m]')
+	print('[bold white][[bold green]03[/][bold white]][/] [bold cyan]Crack Username \33[m[\x1b[1;92mON\33[m]')
+	print('[bold white][[bold green]04[/][bold white]][/] [bold cyan]Crack File\33[m[\x1b[1;92mON\33[m]')
+	print('[bold white][[bold green]05[/][bold white]][/] [bold cyan]User-Agent Random \33[m[\x1b[1;92mON\33[m]')
+	print('[bold white][[bold green]06[/][bold white]][/] [bold cyan]Cek Opsi \33[m[\x1b[1;92mON\33[m]')
+	print('[bold white][[bold green]07[/][bold white]][/] [bold cyan]Hasil Crack \33[m[\x1b[1;92mON\33[m]')
+	print('[bold white][[bold green]08[/][bold white]][/] [bold cyan]09. Lapor Bug \33[m[\x1b[1;92mON\33[m]')
+	print('[bold white][[bold green]09[/][bold white]][/] [bold cyan]Lacak IP \33[m[\x1b[1;92mON\33[m]')
+	print('[bold white][[bold green]00[/][bold white]][/] [bold cyan]Keluar \33[m( \x1b[1;91mHapus Cookie \33[m) ')
+	xyzonxd = input('\n\x1b[1;93m[\x1b[1;92m?\x1b[1;93m]\x1b[1;93m \x1b[1;92mPilih > \x1b[1;93m')
 	print('')
 	if xyzonxd in ['01','1']:
 		dump_public()
@@ -438,15 +435,9 @@ def menu(name,id):
 	elif xyzonxd in ['07','7']:
 	    result()
 	elif xyzonxd in ['08','8']:
-	    doa_halal()
-	elif xyzonxd in ['09','9']:
 	     whatsapp()
-	elif xyzonxd in ['10','10']:
+	elif xyzonxd in ['09','9']:
 	    lacak_ip()
-	elif xyzonxd in ['11','11']:
-		bot_komen()
-	elif xyzonxd in ['12','12']:
-		bot_share()
 	elif xyzonxd in ['00','0']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
@@ -631,52 +622,6 @@ def dump_public():
 	except (KeyError,IOError):
 		print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mPertemanan Tidak Publi Atau Cookie And Token Anda Busuk')
 		exit()
-#----------------------[ MENU CRACK V2 ]----------------------#
-def lainnya():
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m01. Crack Username')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m02. Crack File')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m03. User-Agent Random')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m04. Lacak IP')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m05. Keluar Dari Tools Lainnya')
-	print('')
-	bray = input(f'\x1b[1;93m[\x1b[1;92m?\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mPilih : \x1b[1;93m')
-	print('')
-	if bray in(''):
-		print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mPilih Yang Bener Kak !');back()
-	if bray in('1','01'):
-		crack_nama()
-	elif bray in('2','02'):
-		crack_file()
-	elif bray in('3','03'):
-		scrape_ua()
-	elif bray in('4','04'):
-		lacak_ip()
-	elif bray in('5','05'):
-		back()
-	print('')
-#----------------------[ MENU CRACK V1 ]----------------------#
-def bot():
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m01. Bot Komen Facebook')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m02. Spam Sms')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m03. Spam Whatsapp')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m04. Bot Share Facebook')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m05. Keluar Dari Tools Bot')
-	print('')
-	bray = input(f'\x1b[1;93m[\x1b[1;92m?\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mPilih : \x1b[1;93m')
-	print('')
-	if bray in(''):
-		print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mPilih Yang Bener Kak !');back()
-	if bray in('1','01'):
-		bot_komen()
-	elif bray in('2','02'):
-		spam_sms()
-	elif bray in('3','03'):
-		spam_wa()
-	elif bray in('4','04'):
-		bot_share()
-	elif bray in('5','05'):
-		back()
-	print('')
 ###----------[ MENU LOGIN ]----------###	
 def kontol():
 	cookie = input(f"\x1b[1;93m[\x1b[1;92m?\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mMASUKKAN COOKIE AKUN FACEBOOK ANDA : \033[93m")
