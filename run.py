@@ -265,12 +265,12 @@ def back():
 def banner():
 	clear()
 	alvino_xy(f'''\t{asu}
-\t\t             ██╗  ██╗██╗   ██╗███████╗ ██████╗ ███╗   ██╗██╗  ██╗██████╗              
-\t\t             ╚██╗██╔╝╚██╗ ██╔╝╚══███╔╝██╔═══██╗████╗  ██║╚██╗██╔╝██╔══██╗             
-\t\t              ╚███╔╝  ╚████╔╝   ███╔╝ ██║   ██║██╔██╗ ██║ ╚███╔╝ ██║  ██║             
-\t\t              ██╔██╗   ╚██╔╝   ███╔╝  ██║   ██║██║╚██╗██║ ██╔██╗ ██║  ██║             
-\t\t             ██╔╝ ██╗   ██║   ███████╗╚██████╔╝██║ ╚████║██╔╝ ██╗██████╔╝             
-\t\t             ╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚═════╝
+\t             ██╗  ██╗██╗   ██╗███████╗ ██████╗ ███╗   ██╗██╗  ██╗██████╗              
+\t             ╚██╗██╔╝╚██╗ ██╔╝╚══███╔╝██╔═══██╗████╗  ██║╚██╗██╔╝██╔══██╗             
+\t              ╚███╔╝  ╚████╔╝   ███╔╝ ██║   ██║██╔██╗ ██║ ╚███╔╝ ██║  ██║             
+\t              ██╔██╗   ╚██╔╝   ███╔╝  ██║   ██║██║╚██╗██║ ██╔██╗ ██║  ██║             
+\t             ██╔╝ ██╗   ██║   ███████╗╚██████╔╝██║ ╚████║██╔╝ ██╗██████╔╝             
+\t             ╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚═════╝
 			        {m}▪︎{k}▪︎{h}▪︎{sir} XYZON MULTI BRUTE FORCE {x}{m}▪︎{k}▪︎{h}▪︎{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login123():
@@ -398,7 +398,7 @@ def menu(name,id):
 	jam = strftime('%H:%M:%S')
 	ip = requests.get("https://api.ipify.org").text
 	print('\x1b[1;92m<--------------------------------------------------------------------------------------------------->')
-	print('\t\t\t\t     \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;92mSELAMAT DATANG DI LAYANAN KAMI BOSSKU\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
+	print('\t     \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;92mSELAMAT DATANG DI LAYANAN KAMI BOSSKU\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
 	print('')
 	print('\x1b[1;93m[\x1b[1;92m▪︎\x1b[1;93m] \x1b[1;92mAuthor      : \x1b[1;93mXyzonXD \33[m(\x1b[1;92mBintangTzy\33[m)')
 	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>{h}Informasi Negara Kamu        : {k}{negara}')
@@ -406,9 +406,7 @@ def menu(name,id):
 	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>{h}Internet Protocol Kamu       : {k}{ip}')
 	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mIdentitas Diri \33[m(\x1b[1;93mID\33[m) \x1b[1;92mKamu     : \x1b[1;93m{id}')
 	print('\x1b[1;92m<--------------------------------------------------------------------------------------------------->')
-	print('\t\t\t\t        \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;92mINFORMASI MENU\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
-	print('')
-	cetak(nel('\t\t   [yellow]Ketik [green]Bot [yellow]Untuk Ke Menu [green]Bot , [yellow]Ketik [green]Lainnya [yellow]Untuk Ke Menu [green]Lainnya'))
+	print('\t        \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;92mINFORMASI MENU\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
 	print('')
 	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m01. Crack Publik \33[m[\x1b[1;92mON\33[m]')
 	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m02. Crack Masal \33[m[\x1b[1;92mON\33[m]')
