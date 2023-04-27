@@ -265,13 +265,13 @@ def back():
 def banner():
 	clear()
 	alvino_xy(f'''\t{asu}
-\t\t   ███╗░░░███╗███████╗████████╗░█████╗░ ███╗░░░███╗██████╗░███████╗
-\t\t   ████╗░████║██╔════╝╚══██╔══╝██╔══██╗ ████╗░████║██╔══██╗██╔════╝
-\t\t   ██╔████╔██║█████╗░░░░░██║░░░███████║ ██╔████╔██║██████╦╝█████╗░░
-\t\t   ██║╚██╔╝██║██╔══╝░░░░░██║░░░██╔══██║ ██║╚██╔╝██║██╔══██╗██╔══╝░░
-\t\t   ██║░╚═╝░██║███████╗░░░██║░░░██║░░██║ ██║░╚═╝░██║██████╦╝██║░░░░░
-\t\t   ╚═╝░░░░░╚═╝╚══════╝░░░╚═╝░░░╚═╝░░╚═╝ ╚═╝░░░░░╚═╝╚═════╝░╚═╝░░░░░
-			        {m}▪︎{k}▪︎{h}▪︎{sir} META MULTI BRUTEFORCE FACEBOOK {x}{m}▪︎{k}▪︎{h}▪︎{x}''')
+\t\t             ██╗  ██╗██╗   ██╗███████╗ ██████╗ ███╗   ██╗██╗  ██╗██████╗              
+\t\t             ╚██╗██╔╝╚██╗ ██╔╝╚══███╔╝██╔═══██╗████╗  ██║╚██╗██╔╝██╔══██╗             
+\t\t              ╚███╔╝  ╚████╔╝   ███╔╝ ██║   ██║██╔██╗ ██║ ╚███╔╝ ██║  ██║             
+\t\t              ██╔██╗   ╚██╔╝   ███╔╝  ██║   ██║██║╚██╗██║ ██╔██╗ ██║  ██║             
+\t\t             ██╔╝ ██╗   ██║   ███████╗╚██████╔╝██║ ╚████║██╔╝ ██╗██████╔╝             
+\t\t             ╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚═════╝
+			        {m}▪︎{k}▪︎{h}▪︎{sir} XYZON MULTI BRUTE FORCE {x}{m}▪︎{k}▪︎{h}▪︎{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login123():
 	os.system('clear')
@@ -398,65 +398,58 @@ def menu(name,id):
 	jam = strftime('%H:%M:%S')
 	ip = requests.get("https://api.ipify.org").text
 	print('\x1b[1;92m<--------------------------------------------------------------------------------------------------->')
-	print('\t\t\t\t       \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;92mINFORMASI AUTHOR\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
+	print('\t\t\t\t     \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;92mSELAMAT DATANG DI LAYANAN KAMI BOSSKU\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
 	print('')
-	print('\x1b[1;93m[\x1b[1;92m▪︎\x1b[1;93m] \x1b[1;92mAuthor      : \x1b[1;93mDemias Syihab Aldino \33[m(\x1b[1;92mmaskprivate1457\33[m)')
-	print('\x1b[1;93m[\x1b[1;92m▪︎\x1b[1;93m] \x1b[1;92mGithub      : \x1b[1;93mmaskprivate1457')
-	print('\x1b[1;93m[\x1b[1;92m▪︎\x1b[1;93m] \x1b[1;92mWhatsapp    : \x1b[1;93m089667838732')
-	print('\x1b[1;93m[\x1b[1;92m▪︎\x1b[1;93m] \x1b[1;92mInstagram   : \x1b[1;93mmask_private1457')
-	print('\x1b[1;93m[\x1b[1;92m▪︎\x1b[1;93m] \x1b[1;92mFacebook    : \x1b[1;93mDemias Syihab')
-	print('\x1b[1;93m[\x1b[1;92m▪︎\x1b[1;93m] \x1b[1;92mYoutube     : \x1b[1;93mTutorial Termux & Learn & Tutorial')
-	print('\x1b[1;93m[\x1b[1;92m▪︎\x1b[1;93m] \x1b[1;92mUpdate By   : \x1b[1;93mMuhammad-Basari \33[m(\x1b[1;92mBasari-id\33[m)')
-	print('\x1b[1;93m[\x1b[1;92m▪︎\x1b[1;93m] \x1b[1;92mSource Code : \x1b[1;93mAlvino \33[m(\x1b[1;92mAlvino_Adijaya_Xy\33[m)')
-	print('\x1b[1;92m<--------------------------------------------------------------------------------------------------->')
-	print('\t\t\t\t     \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;92mINFORMASI AKUN ANDA\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
-	print('')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mNama Akun Facebook \x1b[1;92mKamu      : \x1b[1;93m{name}')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mIdentitas Diri \33[m(\x1b[1;93mID\33[m) \x1b[1;92mKamu     : \x1b[1;93m{id}')
-	print('\x1b[1;92m<--------------------------------------------------------------------------------------------------->')
-	print('\t\t\t             \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;92mINFORMASI LOKASI ANDA\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
-	print('')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>{h}Internet Protocol Kamu       : {k}{ip}')
+	print('\x1b[1;93m[\x1b[1;92m▪︎\x1b[1;93m] \x1b[1;92mAuthor      : \x1b[1;93mXyzonXD \33[m(\x1b[1;92mBintangTzy\33[m)')
 	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>{h}Informasi Negara Kamu        : {k}{negara}')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>{h}Informasi Kota Kamu          : {k}{asal_kota}')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>{h}Informasi Kartu Kamu         : {k}{sim}')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>{h}Informasi Wiayah Kamu        : {k}{asal_reg}')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>{h}Informasi Waktu Saat Ini     : {k}{jam}')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>{h}Informasi Tanggal Sekarang   : {k}{hari},{sekarang}')
+	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mNama Akun Facebook \x1b[1;92mKamu      : \x1b[1;93m{name}')
+	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>{h}Internet Protocol Kamu       : {k}{ip}')
+	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mIdentitas Diri \33[m(\x1b[1;93mID\33[m) \x1b[1;92mKamu     : \x1b[1;93m{id}')
 	print('\x1b[1;92m<--------------------------------------------------------------------------------------------------->')
 	print('\t\t\t\t        \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;92mINFORMASI MENU\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
 	print('')
 	cetak(nel('\t\t   [yellow]Ketik [green]Bot [yellow]Untuk Ke Menu [green]Bot , [yellow]Ketik [green]Lainnya [yellow]Untuk Ke Menu [green]Lainnya'))
 	print('')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m01. Crack Massal \33[m[\x1b[1;92mON\33[m]')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m02. Crack Publik \33[m[\x1b[1;92mON\33[m]')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m03. Cek Opsi \33[m[\x1b[1;92mON\33[m]')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m04. Hasil Crack \33[m[\x1b[1;92mON\33[m]')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m05. Doa Penghapus Dosa Besar \33[m[\x1b[1;92mRecomended Di Baca\33[m]')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m06. Lapor Bug \33[m[\x1b[1;92mMenuju Ke Whatsapp\33[m]')
-	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m07. Ingin Membeli Akun Facebook ? \33[m[\x1b[1;92mMENUJU KE WHATSAPP\33[m]')
+	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m01. Crack Publik \33[m[\x1b[1;92mON\33[m]')
+	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m02. Crack Masal \33[m[\x1b[1;92mON\33[m]')
+	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m03. Crack Username')
+	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m04. Crack File')
+	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m05. User-Agent Random')
+	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m06. Cek Opsi \33[m[\x1b[1;92mON\33[m]')
+	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m07. Hasil Crack \33[m[\x1b[1;92mON\33[m]')
+	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m08. Doa Sebelum Carck \33[m[\x1b[1;92mRecomended\33[m]')
+	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m09. Lapor Bug \33[m[\x1b[1;92mON\33[m]')
+	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m10. Lacak IP')
+	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m11. Bot Komen Facebook')
+	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m12. Bot Share Facebook')
 	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92m00. Keluar \33[m( \x1b[1;92mHapus Cookie \33[m) ')
-	_____demias__syihab_____ = input('\n\x1b[1;93m[\x1b[1;92m?\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mPilih > \x1b[1;93m')
+	xyzonxd = input('\n\x1b[1;93m[\x1b[1;92m?\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mPilih > \x1b[1;93m')
 	print('')
-	if _____demias__syihab_____ in ['01','1']:
-		dump_massal()
-	elif _____demias__syihab_____ in ['02','2']:
-	    dump_public()
-	elif _____demias__syihab_____ in ['03','3']:
+	if xyzonxd in ['01','1']:
+		dump_public()
+	elif xyzonxd in ['02','2']:
+	    dump_massal()
+	elif xyzonxd in ['03','3']:
+		crack_nama()
+	elif xyzonxd in ['04','4']:
+		crack_file()
+	elif xyzonxd in ['05','5']:
+		scrape_ua()
+	elif xyzonxd in ['06','6']:
 	    cek_opsi()
-	elif _____demias__syihab_____ in ['04','4']:
+	elif xyzonxd in ['07','7']:
 	    result()
-	elif _____demias__syihab_____ in ['05','5']:
+	elif xyzonxd in ['08','8']:
 	    doa_halal()
-	elif _____demias__syihab_____ in ['06','6']:
+	elif xyzonxd in ['09','9']:
 	     whatsapp()
-	elif _____demias__syihab_____ in ['07','7']:
-	    akun_facebook()
-	elif _____demias__syihab_____ in ['Bot','BOT','bot']:
-	    bot()
-	elif _____demias__syihab_____ in ['lainnya','Lainnya','LAINNYA']:
-	    lainnya()
-	elif _____demias__syihab_____ in ['00','0']:
+	elif xyzonxd in ['10','10']:
+	    lacak_ip()
+	elif xyzonxd in ['11','11']:
+		bot_komen()
+	elif xyzonxd in ['12','12']:
+		bot_share()
+	elif xyzonxd in ['00','0']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
 		print('\x1b[1;93m[\x1b[1;92m!\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mSukses Logout \x1b[1;93m+\x1b[1;92m Hapus Cookie ')
