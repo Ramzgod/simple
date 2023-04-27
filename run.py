@@ -294,9 +294,9 @@ def back():
 	login()
 #------------------[ LOGO-LAKNAT ]-----------------#
 def logo():
-	cetak(panel(f"""[bold green]                 _  _ _   _ ___  ____ _  _    _  _ ___  
-[bold green]                  \/   \_/    /  |  | |\ | __  \/  |  \ 
-[bold green]                 _/\_   |    /__ |__| | \|    _/\_ |__/ 
+	cetak(panel(f"""[bold green]                     _  _ _   _ ___  ____ _  _    _  _ ___  
+[bold green]                      \/   \_/    /  |  | |\ | __  \/  |  \ 
+[bold green]                     _/\_   |    /__ |__| | \|    _/\_ |__/ 
              """,width=90,title=f"[bold green]LOGO",subtitle=f"[bold cyan]SELAMAT DATANG DI LAYANAN KAMI BOSSKU",style=f"bold white"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login123():
