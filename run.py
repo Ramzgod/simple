@@ -415,7 +415,7 @@ def menu(my_name,my_id):
 	os.system('clear')
 	logo()
 	ip = requests.get("https://api.ipify.org").text
-	print('\t\t     \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;96mSELAMAT DATANG DI LAYANAN KAMI BOSSKU\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
+	cetak(panel(f'\t\t     \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;96mSELAMAT DATANG DI LAYANAN KAMI BOSSKU\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
 	Brayenn.append(panel(f'[bold white][[bold green]+[/][bold white]][/] [bold cyan] Username : [bold green]{my_name}[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]User Idz : [bold green]{my_id}[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]User Ip  : [bold green]{ip}[/][/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]User Sc  : [bold green]9999999[/][/] ',width=43,padding=(0,3),style=f"bold white"))
 	Brayenn.append(panel(f'[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Author : [bold green]BintangTzy[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Recode : [bold green]XyzonXD[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Versi  : [bold green]2.1[/][/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Status : [bold green]Premium[/][/] ',width=44,padding=(0,3),style=f"bold white"))
 	console.print(Columns(Brayenn))
