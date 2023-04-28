@@ -341,15 +341,15 @@ def menu(name,id):
 	except:city = cek_data['-']
 	jam = strftime('%H:%M:%S')
 	ip = requests.get("https://api.ipify.org").text
-	print('\x1b[1;92m<---------------------------------------------------------------->')
+	print('\x1b[1;92m<--------------------------------------------------------------------->')
 	print('\t     \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;96mSELAMAT DATANG DI LAYANAN KAMI BOSSKU\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
 	print('')
-	print('\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mAuthor         : \x1b[1;93mXyzonXD \33[m(\x1b[1;92mBintangTzy\33[m)')
-	print(f'\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mNegara       : {k}{negara}')
-	print(f'\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mFacebook   : \x1b[1;93m{name}')
+	print('\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mAuthor        : \x1b[1;93mXyzonXD \33[m(\x1b[1;92mBintangTzy\33[m)')
+	print(f'\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mNegara         : {k}{negara}')
+	print(f'\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mFacebook      : \x1b[1;93m{name}')
 	print(f'\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mUser IP       : {k}{ip}')
 	print(f'\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mIdentitas     : \x1b[1;93m{id}')
-	print('\x1b[1;92m<---------------------------------------------------------------->')
+	print('\x1b[1;92m<--------------------------------------------------------------------->')
 	print('\t        \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;96mINFORMASI MENU\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
 	print('')
 	print('\x1b[1;97m[\x1b[1;92m01\x1b[1;97m] \x1b[1;96mCrack Publik And Friends \33[m[\x1b[1;92mON\33[m]')
@@ -1626,4 +1626,4 @@ if __name__=='__main__':
 	except:pass
 	try:os.system('touch .prox.txt')
 	except:pass
-	login()
+	login() 
