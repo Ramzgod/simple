@@ -296,7 +296,7 @@ def login_lagi334():
 	try:
 		os.system('clear')
 		banner()
-		cetak(nel('\t©©© Saran Ektensi : [green]Cookiedough[white] ©©©'))
+		cetak(nel('\t©©© Saran Ektensi : [cyan]Disarankan Menggunakan Akun Tumbal [white] ©©©'))
 		asu = random.choice([m,k,h,b,u])
 		cookie=input(f'  [{h}•{x}] Masukkan Cookies :{asu} ')
 		cookies = {'cookie':cookie}
@@ -341,22 +341,22 @@ def menu(name,id):
 	except:city = cek_data['-']
 	jam = strftime('%H:%M:%S')
 	ip = requests.get("https://api.ipify.org").text
-	print('\x1b[1;92m<-------------------------------------------------------------------------------------->')
+	print('\x1b[1;92m<---------------------------------------------------------------->')
 	print('\t     \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;96mSELAMAT DATANG DI LAYANAN KAMI BOSSKU\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
 	print('')
-	print('\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mAuthor      : \x1b[1;93mXyzonXD \33[m(\x1b[1;92mBintangTzy\33[m)')
-	print(f'\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mInformasi Negara Kamu        : {k}{negara}')
-	print(f'\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mNama Akun Facebook \x1b[1;92mKamu      : \x1b[1;93m{name}')
-	print(f'\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mInternet Protocol Kamu       : {k}{ip}')
-	print(f'\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mIdentitas Diri \33[m(\x1b[1;93mID\33[m) \x1b[1;92mKamu     : \x1b[1;93m{id}')
-	print('\x1b[1;92m<-------------------------------------------------------------------------------------->')
+	print('\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mAuthor         : \x1b[1;93mXyzonXD \33[m(\x1b[1;92mBintangTzy\33[m)')
+	print(f'\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mNegara       : {k}{negara}')
+	print(f'\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mFacebook   : \x1b[1;93m{name}')
+	print(f'\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mUser IP       : {k}{ip}')
+	print(f'\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mIdentitas     : \x1b[1;93m{id}')
+	print('\x1b[1;92m<---------------------------------------------------------------->')
 	print('\t        \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;96mINFORMASI MENU\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
 	print('')
 	print('\x1b[1;97m[\x1b[1;92m01\x1b[1;97m] \x1b[1;96mCrack Publik And Friends \33[m[\x1b[1;92mON\33[m]')
 	print('\x1b[1;97m[\x1b[1;92m02\x1b[1;97m] \x1b[1;96mCrack Masal And Friends \33[m[\x1b[1;92mON\33[m]')
 	print('\x1b[1;97m[\x1b[1;92m03\x1b[1;97m] \x1b[1;96mCrack Username \33[m[\x1b[1;92mON\33[m]')
-	print('\x1b[1;97m[\x1b[1;92m04\x1b[1;97m] \x1b[1;96mCrack Folowers\33[m[\x1b[1;92mON\33[m]')
-	print('\x1b[1;97m[\x1b[1;92m05\x1b[1;97m] \x1b[1;96mCrack Grup\33[m[\x1b[1;92mON\33[m]')
+	print('\x1b[1;97m[\x1b[1;92m04\x1b[1;97m] \x1b[1;96mCrack Folowers \33[m[\x1b[1;92mON\33[m]')
+	print('\x1b[1;97m[\x1b[1;92m05\x1b[1;97m] \x1b[1;96mCrack Grup \33[m[\x1b[1;92mON\33[m]')
 	print('\x1b[1;97m[\x1b[1;92m06\x1b[1;97m] \x1b[1;96mUser-Agent Random \33[m[\x1b[1;92mON\33[m]')
 	print('\x1b[1;97m[\x1b[1;92m07\x1b[1;97m] \x1b[1;96mChekpoint Detecktor \33[m[\x1b[1;92mON\33[m]')
 	print('\x1b[1;97m[\x1b[1;92m08\x1b[1;97m] \x1b[1;96mCek Hasil Crack \33[m[\x1b[1;92mON\33[m]')
@@ -928,7 +928,7 @@ def setting():
 	passwrd()
 #-------------------[ BAGIAN-WORDLIST ]--------------------#
 def passwrd():
-	print('\x1b[1;92m<--------------------------------------------------------------------------------------------------->')
+	print('\x1b[1;92m<---------------------------------------------------------------->')
 	cetak(nel(f'\t\t       {H2}Mainkan Mode Pesawat Setiap {K2}1000 ID {H2}Selama 10 Detik !'))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
@@ -973,6 +973,7 @@ def passwrd():
 			else:
 				pool.submit(crackmbasic,idf,pwv)
 	print('')
+	print('\x1b[1;92m<---------------------------------------------------------------->')
 	cetak(nel(f'\t\t\t    {H2}Crack Selesai Cuy, Jangan Lupa Bersyukur'))
 	print(f'[{b}•{x}]{h} OK : {h}%s '%(ok))
 	print(f'{x}[{b}•{x}]{k} CP : {k}%s{x} '%(cp))
@@ -993,7 +994,7 @@ def doa_halal():
 def crackmbasic(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
-	sys.stdout.write(f"\r{x}[{h}+{x}]{k} ╰─>{P}[{b}{loop}{P}/{u}{len(id)}{P}]—{P}[{H}{ok}{P}]—{P}[{k}{cp}{x}]—[{bo}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
+	sys.stdout.write(f"\r{x}[{h}+{x}]{k} {P}[{b}{loop}{P}/{u}{len(id)}{P}]—{P}[{H}{ok}{P}]—{P}[{k}{cp}{x}]—[{bo}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
