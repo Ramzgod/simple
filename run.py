@@ -927,7 +927,6 @@ def passwrd():
 				if len(frs)<3:
 					pass
 				else:
-					
 				    pwv.append(frs+'1')
 				    pwv.append(frs+'01')
 					pwv.append(frs+'02')
@@ -942,17 +941,17 @@ def passwrd():
 					pwv.append(frs+'321')
 					pwv.append(frs+'4321')
 				else:
-					if len(frs)<3:
-						pwv.append(nmf)
-					else:
-						pwv.append(nmf)
-						pwv.append(frs+'12')
-						pwv.append(frs+'321')
-						pwv.append(frs+'4321')
-						pwv.append(frs+'123')
-						pwv.append(frs+'1234')
-						pwv.append(frs+'12345')
-						pwv.append(frs+'123456')
+				if len(frs)<3:
+					pwv.append(nmf)
+				else:
+					pwv.append(nmf)
+					pwv.append(frs+'12')
+					pwv.append(frs+'321')
+					pwv.append(frs+'4321')
+					pwv.append(frs+'123')
+					pwv.append(frs+'1234')
+					pwv.append(frs+'12345')
+					pwv.append(frs+'123456')
 			if 'ya' in pwpluss:
 				for xpwd in pwnya:
 					pwv.append(xpwd)
