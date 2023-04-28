@@ -296,9 +296,9 @@ def login_lagi334():
 	try:
 		os.system('clear')
 		banner()
-		cetak(nel('\t©©© [cyan]Disarankan Menggunakan Akun Tumbal [white] ©©©'))
+		cetak(nel('\t\x1b[1;92m©\x1b[1;93m©\x1b[1;91m©      [bold cyan]Disarankan Menggunakan Akun Tumbal \x1b[1;92m©\x1b[1;93m©\x1b[1;91m©'))
 		asu = random.choice([m,k,h,b,u])
-		cookie=input(f'  [{h}•{x}] Masukkan Cookies :{asu} ')
+		cookie=input(f'  [{h}•{x}]\x1b[1;96m Masukkan Cookies :{asu} ')
 		cookies = {'cookie':cookie}
 		url = 'https://www.facebook.com/adsmanager/manage/campaigns'
 		req = ses.get(url,cookies=cookies)
