@@ -271,7 +271,7 @@ def banner():
           ██╔██╗   ╚██╔╝   ███╔╝  ██║   ██║██║╚██╗██║ ██╔██╗ ██║  ██ ║
          ██╔╝ ██╗   ██║   ███████╗╚██████╔╝██║ ╚████║██╔╝ ██╗██████╔╝
          ╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚═════╝
-            {m}▪︎{k}▪︎{h}▪︎{sir} XYZON MULTI BRUTE FORCE {x}{m}▪︎{k}▪︎{h}▪︎{x}''')
+                 {m}▪︎{k}▪︎{h}▪︎{sir} XYZON MULTI BRUTE FORCE {x}{m}▪︎{k}▪︎{h}▪︎{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
@@ -296,7 +296,7 @@ def login_lagi334():
 	try:
 		os.system('clear')
 		banner()
-		cetak(nel('\t[bold green]©[bold yellow]©[bold red]©      [bold cyan]Disarankan Menggunakan Akun Tumbal [bold green]©[bold yellow]©[bold red]©'))
+		cetak(nel('\t         [bold green]©[bold yellow]©[bold red]© [bold cyan]Disarankan Menggunakan Akun Tumbal [bold green]©[bold yellow]©[bold red]©'))
 		asu = random.choice([m,k,h,b,u])
 		cookie=input(f'  [{h}•{x}]\x1b[1;96m Masukkan Cookies :{asu} ')
 		cookies = {'cookie':cookie}
