@@ -438,10 +438,7 @@ def menu(name,id):
 	elif xyzonxd in ['08','8']:
 	    result()
 	elif xyzonxd in ['09','9']:
-	     print(f"\33[1;96mApapun Bug Pada Script Tolong Laporkan Kepada Saya Agar Bisa Mengembangkan Sc Ini Semakin Dikit Bugnya Semakin Baik Sc Ini , Anda Akan Di Arahkan Ke WhatsApp")
-		os.system("xdg-open https://wa.me/+6282183929059?text=Asalammualikum+Bang+Saya+Mau+Melaporkan+Bug+Pada+Sc+Mu+Bang")
-		time.sleep(3)
-		exit()
+	     whatsapp()
 	elif xyzonxd in ['10','010']:
 	    lacak_ip()
 	elif xyzonxd in ['00','0']:
@@ -457,6 +454,9 @@ def error():
 	time.sleep(4)
 	back()
 	print('')
+#-------------------[ UNTUK-WHATSAPP ]----------------#
+def whatsapp():
+	os.system("xdg-open https://wa.link/ly8gse")
 #-----------------[ HASIL-CRACK ]-----------------#
 def result():
 	print('\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mHasil Akun Checkpoint \33[m(\x1b[1;93mCP\33[m) \x1b[1;92mAnda ')
