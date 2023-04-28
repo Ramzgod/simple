@@ -501,6 +501,21 @@ def result():
 	else:
 		print('\x1b[1;97m[\x1b[1;92m!\x1b[1;97m]\x1b[1;93m \x1b[1;97mPilih Yang Bener Kak !')
 		exit()
+###----------[ MENU LOGIN ]----------###	
+def kontol():
+	cookie = input(f"\x1b[1;93m[\x1b[1;92m?\x1b[1;93m]\x1b[1;93m ╰─>\x1b[1;92mMASUKKAN COOKIE AKUN FACEBOOK ANDA : \033[93m")
+	try:
+		data = ses.get("https://business.facebook.com/business_locations", headers = {"user-agent": "Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","content-type":"text/html; charset=utf-8"}, cookies = {"cookie":cookie})
+		find_token = re.search("(EAAG\w+)", data.text)
+		open("token.txt", "w").write(find_token.group(1))
+		open("cookie.txt", "w").write(cookie)
+		cetak(nel(f'{H2} LOGIN BERHASIL !',width=24,style=f"#00FF00"));time.sleep(2)
+		bot_share()
+	except:
+		os.system("rm token.txt cookie.txt")
+		cetak(nel(f'{K2} COOKIE TIDAK SAH !!',width=25,style=f"#00FF00"));time.sleep(1.5) 
+		kontol()
+		
 #------------------[ CRACK-GRUP ]-----------------#
 balmond = b+"["+h+"✓"+b+"]"
 
