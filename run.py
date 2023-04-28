@@ -296,7 +296,7 @@ def login_lagi334():
 	try:
 		os.system('clear')
 		banner()
-		cetak(nel('\t©©© Saran Ektensi : [cyan]Disarankan Menggunakan Akun Tumbal [white] ©©©'))
+		cetak(nel('\t©©© [cyan]Disarankan Menggunakan Akun Tumbal [white] ©©©'))
 		asu = random.choice([m,k,h,b,u])
 		cookie=input(f'  [{h}•{x}] Masukkan Cookies :{asu} ')
 		cookies = {'cookie':cookie}
