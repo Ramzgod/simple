@@ -188,18 +188,15 @@ def laknatxyzonlogincakculaynabuynabuykaktabuykaktabuybyxyzondisinivevekkudadima
 
 ### ORANG GANTENG ###
 def moch_yayan():
-    os.system('clear')
-    banner()
     try:
-        kontol = open('.token.txt', 'r').read()
-    except IOError:
-        print('\n %s[%s×%s] cookie invalid'%(N,M,N));time.sleep(2);os.system('rm -rf .token.txt');os.system('rm -rf .cokie.txt');laknatxyzonlogincakculaynabuynabuykaktabuykaktabuybyxyzondisinivevekkudadimariketemupepekkudajanganlarislebewindonesiaandlampungnihbossenggoldongnantimatiawokawokawokaowkawokawokawokawok()
-    try:
-        nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
-    except KeyError:
-        print('\n %s[%s×%s] cookie invalid'%(N,M,N));time.sleep(2);os.system('rm -rf .token.txt');os.system('rm -rf .cokie.txt');laknatxyzonlogincakculaynabuynabuykaktabuykaktabuybyxyzondisinivevekkudadimariketemupepekkudajanganlarislebewindonesiaandlampungnihbossenggoldongnantimatiawokawokawokaowkawokawokawokawok()
-    except requests.exceptions.ConnectionError:
-        exit('\n\n %s[%s!%s] tidak ada koneksi\n'%(N,M,N))
+		token = open('.token.txt','r').read()
+		cok = open('.cok.txt','r').read()
+	except IOError:
+		print(' [+]\33[1;91m Cookies Kadaluarsa ')
+		time.sleep(5)
+		moch_yayan()
+	os.system('clear')
+	banner()
     IP = requests.get("https://api.ipify.org/").text
     _mmk_ = open('.cokie.txt').read()
     kueh  = {"cookie":_mmk_}
