@@ -24,10 +24,33 @@ except ImportError:
     print('\n [×] Modul Bs4 belum terinstall!...\n')
     os.system('pip install bs4')
 
-import requests, os, re, bs4, sys, json, time, random, datetime, subprocess
-from concurrent.futures import ThreadPoolExecutor as YayanGanteng
-from datetime import datetime
-from bs4 import BeautifulSoup
+#-----------------[ IMPORT - PREMIUM ]-------------------
+import requests,bs4,json,os,sys,random,datetime,time,re
+import urllib3,rich,base64
+from concurrent.futures import ThreadPoolExecutor as tred
+from rich.table import Table as me
+from rich.console import Console as sol
+from bs4 import BeautifulSoup as sop
+from bs4 import BeautifulSoup as parser
+from bs4 import BeautifulSoup as par
+from concurrent.futures import ThreadPoolExecutor as tred
+from rich.console import Group as gp
+from rich.panel import Panel as panel
+from rich.panel import Panel as nel
+from rich.progress import track
+from time import sleep
+from rich import print as cetak
+from concurrent.futures import ThreadPoolExecutor as XyzonXD
+from rich.panel import Panel
+from rich.markdown import Markdown as mark
+from rich.columns import Columns as col
+from rich.tree import Tree
+from rich import print as rprint
+from rich import print as prints
+from rich import pretty
+from rich.console import Console as sol
+from rich.progress import Progress,SpinnerColumn,BarColumn,TextColumn
+from rich.text import Text as tekz
 ct = datetime.now()
 n = ct.month
 bulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember']
