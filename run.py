@@ -180,7 +180,7 @@ class Menu:
 		ask = input("\n [?] choose : ")
 		#if ask in ["1", "01"]:
 			#print(" [!] \033[0;91mTRIAL\033[0;97m user hanya dapat 1000 id.\n")
-	    elif ask in ["1", "01"]:
+	    if ask in ["1", "01"]:
          DumpPublic(token)
 			Crack()
 		elif ask in ["2", "02"]:
