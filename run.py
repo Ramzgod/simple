@@ -449,7 +449,7 @@ def laknatxyzonlogincakculaynabuynabuykaktabuykaktabuybyxyzondisinivevekkudadima
 							r.headers.update({'sec-fetch-mode': 'no-cors','referer': 'https://graph.facebook.com/','Host': 'graph.facebook.com','accept': '*/*','sec-fetch-dest': 'script','sec-fetch-site': 'cross-site',})
 							response7 = r.get(status_url, cookies = {'cookie': your_cookies}).text
 							access_token = re.search('"access_token": "(.*?)"', str(response7)).group(1)
-							print(f"\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] Token : \x1b[1;97m{access_token}")
+							print(f"\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mToken : \x1b[1;97m{access_token}")
 							tokenew = open(".token.txt","w").write(access_token)
 							cook= open(".cok.txt","w").write(your_cookies)
 							print(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \33[1;92mLogin Berhasil | Ketik Perintah Di Bawah Ini")
