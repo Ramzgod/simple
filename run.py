@@ -2,7 +2,7 @@
 # coding oleh BintangTzy
 # Makan Dulu Sebelum Ngerecode
 # Izin dlu lah bro kalau mau recode, gk ngotak njir_-
-#Jangan Di Decompile anjir kagak ngotak goblok
+# Jangan Di Decompile anjir kagak ngotak goblok
 # Note : jangan di ubah lagi! nanti error, script nya udah enak
 # BANG BANG LU MAIN EPEP YA🗿
 # Recode Sc Orang Kagak Buat Lu Jago Dek-Dek
@@ -1618,7 +1618,7 @@ def passwrd():
 	urut = []
 	print(M+' <------------------------------------------------------------------------------------->')
 	urut.append(panel(f'        [bold green]%s [bold white]'%(okc),width=43,title=f"[bold red][[bold green] OK SAVE IN [bold red]]",style=f"bold red"))
-	urut.append(panel(f'         [bold yellow]%s [bold white]'%(cpc),width=44,title=f"[bold red][[bold yellow]CP SAVE IN[bold red]]",style=f"bold red"))
+	urut.append(panel(f'         [bold yellow]%s [bold white]'%(cpc),width=44,title=f"[bold red][[bold yellow] CP SAVE IN [bold red]]",style=f"bold red"))
 	wa.print(Columns(urut))
 	cetak(panel(f'\t      [bold cyan]Mainkan Mode Pesawat Setiap [bold yellow]1000 ID [bold cyan]Selama 2 Detik !',width=90,title=f"[bold red][[bold green] Info Crack [bold red]]",style=f"bold red"))
 	prog = Progress(SpinnerColumn('clock'),TextColumn('{task.description}'),BarColumn(),TextColumn('{task.percentage:.0f}%'))
