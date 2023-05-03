@@ -481,6 +481,9 @@ def menu(my_name,my_id):
 		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Cookies Kadaluarsa ')
 		time.sleep(5)
 		login()
+	os.popen("play-audio data/audio/cakculay_xyzondev_03-05-23_13-15-18-089.mp3")
+	os.popen("play-audio data/audio/cakculay_xyzondev_03-05-23_13-15-18-089.mp3")
+	os.popen("play-audio data/audio/cakculay_xyzondev_03-05-23_13-15-18-089.mp3")
 	os.system('clear')
 	banner()
 	ip = requests.get("https://api.ipify.org").text
@@ -1679,7 +1682,7 @@ def passwrd():
 					pool.submit(crackmbasic,idf,pwv)
 		print('')
 	print(M+' <------------------------------------------------------------------------------------->')
-	print(f'{x}  [{h}•{x}]{h} \33[1;96m Crack Telah Selesai,Kalo Dapet \33[1;96mOK{x} \33[1;96mJangan Lupa Bagi Dua Ama Gua')
+	print(f'{x}  [{h}•{x}]{h} \33[1;96mCrack Telah Selesai,Kalo Dapet \33[1;96mOK{x} \33[1;96mJangan Lupa Bagi Dua Ama Gua')
 	print(f'{x}  [{h}•{x}]{h} OK : {h}%s '%(ok))
 	print(f'{x}  [{h}•{x}]{k} CP : {k}%s{x} '%(cp))
 	print('')
